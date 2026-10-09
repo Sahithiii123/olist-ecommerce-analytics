@@ -1,0 +1,63 @@
+{
+  "raw_tables": 9,
+  "checks": [
+    {
+      "name": "orders_present",
+      "passed": true
+    },
+    {
+      "name": "unique_orders",
+      "passed": true
+    },
+    {
+      "name": "unique_customers",
+      "passed": true
+    },
+    {
+      "name": "unique_products",
+      "passed": true
+    },
+    {
+      "name": "unique_sellers",
+      "passed": true
+    },
+    {
+      "name": "item_keys",
+      "passed": true
+    },
+    {
+      "name": "valid_item_prices",
+      "passed": true
+    },
+    {
+      "name": "item_order_fk",
+      "passed": true
+    },
+    {
+      "name": "customer_fk",
+      "passed": true
+    },
+    {
+      "name": "item_product_fk",
+      "passed": true
+    },
+    {
+      "name": "item_seller_fk",
+      "passed": true
+    },
+    {
+      "name": "valid_delivery_dates",
+      "passed": true
+    },
+    {
+      "name": "dim_date_purchase_coverage",
+      "passed": true
+    },
+    {
+      "name": "dim_date_delivery_coverage",
+      "passed": true
+    }
+  ],
+  "quality_summary": "14/14 data-quality checks (12 core + 2 date coverage)",
+  "passed": true
+}
